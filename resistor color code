@@ -1,0 +1,5 @@
+const colors=["Black","Brown","red","orange","Yellow","Green"];
+function getCode(color){
+console.log(colors.indexOf(color));
+}
+getCode("red");
