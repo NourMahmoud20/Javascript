@@ -1,0 +1,9 @@
+
+function getDate(){
+let date= new Date();
+var dd = date.getDate();
+
+var mm = date.getMonth()+1; 
+var yyyy = date.getFullYear();
+console.log(dd + "/"+ mm+"/"+ yyyy)
+}
