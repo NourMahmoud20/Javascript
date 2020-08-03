@@ -1,0 +1,7 @@
+
+function remove(strx,i){
+let str1= strx.substring(0,i);
+let str2= strx.substring(i+1,strx.length)
+console.log(str1+str2);
+}
+console.log(remove("Python",5))
