@@ -1,0 +1,24 @@
+HTML
+
+ <label>first:</label>
+ <input type="text" id="firstNumber">
+
+  <label>Second:</label>
+ <input type="text"id="secondNumber">
+  <button onclick=divide()>divide </button>
+   <button onclick=multiply()>multiply </button>
+   
+   
+   
+   Js
+   
+function multiply(){
+   num1 = document.getElementById("firstNumber").value;
+   num2 = document.getElementById("secondNumber").value;
+   console.log(num1*num2)
+}
+function divide(){
+num1 = document.getElementById("firstNumber").value;
+   num2 = document.getElementById("secondNumber").value;
+   console.log(num1/num2);
+}
